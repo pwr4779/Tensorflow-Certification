@@ -10,10 +10,10 @@ testing_labels = []
 
 for s, l in train_data:
     trianing_sentences.append(str(s.numpy()))
-    training_labels.append(l.npumy())
+    training_labels.append(l.numpy())
 print(s.numpy())
 print(l.numpy())
 
 for s, l in train_data:
     testing_sentences.append(str(s.numpy()))
-    testing_labels.append(l.npumy())
+    testing_labels.append(l.numpy())
